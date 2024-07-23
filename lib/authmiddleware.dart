@@ -21,7 +21,7 @@ enum AuthenticationType {
 
 class AuthMiddlewareService {
   final FlutterSecureStorage _secureStorage = const FlutterSecureStorage();
-  final String baseUrl = 'https://api.amw.launchlense.tech/v1/client/';
+  final String baseUrl = 'https://api.amw.launchlense.tech/api/v1/client/';
   String? _accessKey;
   String? _token;
   final Logger _logger = Logger('AuthMiddlewareService');
@@ -155,7 +155,7 @@ Future<void> _loadToken() async {
       'verify_auth',
       {
         'contact': contact,
-        'password': password,
+        'otp': password,
         'isbiometric': isBiometric.toString(),
         'biometrics_input': biometricsInput,
       },

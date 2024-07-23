@@ -1,7 +1,7 @@
 name: authmiddleware
 description: "Fully managed Auth Middleware"
-version: 1.0.0
-homepage: https://github.com/yourusername/authmiddleware
+version: 1.0.1
+homepage: https://github.com/launchlense-ai/authmiddleware-flutter
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: '>=1.2.2 <1.3.0'
+  http: '>=1.1.0'
   flutter_secure_storage: '>=9.2.2 <10.0.0'
   fluttertoast: ^8.0.9
   logging: ^1.2.0

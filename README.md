@@ -8,7 +8,7 @@ To use AuthMiddleware in your Flutter project, add the following to your `pubspe
 
 ```yaml
 dependencies:
-  authmiddleware:1.0.0
+  authmiddleware:1.0.1
 ```
 
 ## Usage
@@ -90,7 +90,7 @@ This ensures that the user is authorized before executing the function provided 
 
 ## Support
 
-For issues or questions, please open an issue on [GitHub](https://github.com/launchlense.ai/authmiddleware-flutter/issues).
+For issues or questions, please open an issue on [GitHub](https://github.com/launchlense-ai/authmiddleware-flutter/issues).
 
 ## Notes
 
